@@ -123,23 +123,23 @@
  * border-bottom: 1px solid #009688;
  */
 #nice a {
- color: black;
+ color: #ffacb7;
 }
 
 /* 加粗 */
 #nice strong {
-  color: #f55;
+  color: #6886c5;
 }
 
 /* 斜体 */
 #nice em {
   font-style: normal;
-  color: #aaa;
+  color: #ddd;
 }
 
 /* 加粗斜体 */
 #nice em strong {
-  color: rgb(71, 193, 168);
+  color: #6886c5;
 }
 
 /* 删除线 */
@@ -166,11 +166,12 @@
 
 /* 图片描述文字 */
 #nice figcaption {
+  font-size:12px;
 }
 
 /* 行内代码 */
 #nice p code, #nice li code {
-  color: 522d5b;
+  color: #522d5b!important;
 }
 
 /* 非微信代码块
@@ -188,16 +189,18 @@
  */
 #nice table tr th,
 #nice table tr td {
+  font-size:12px;
+  text-align:center;
 }
 
 /* 脚注文字 */
 #nice .footnote-word {
-  color: #d7385e ;
+  color: #ffacb7;
 }
 
 /* 脚注上标 */
 #nice .footnote-ref {
-  color: #d7385e;
+  color: #ffacb7;
 }
 
 #nice .footnote-item em {
@@ -216,10 +219,14 @@
 
 /* 参考资料文字 */
 #nice .footnote-item p { 
+  font-size:12px;
 }
 
 /* 参考资料解释 */
 #nice .footnote-item p em {
+  font-family:"Times New Roman";
+  font-style:italic;
+  color:#1b6ca8;
 }
 
 /* 行间公式
