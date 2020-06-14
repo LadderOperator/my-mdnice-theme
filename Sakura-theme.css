@@ -75,17 +75,20 @@
  * list-style-type: square|circle|disc;
  */
 #nice ul {
+  font-size:14px;
 }
 
 /* 有序列表整体样式
  * list-style-type: upper-roman|lower-greek|lower-alpha;
  */
 #nice ol {
+  font-size:14px;
 }
 
 /* 列表内容，不要设置li
  */
 #nice li section {
+  margin-left:5px;
 }
 
 /* 引用
@@ -159,8 +162,9 @@
 * 居左 margin: 0 0;
 */
 #nice img {
-  width:80%;
   border-radius:10px;
+  margin-top:10px;
+  margin-bottom:10px;
   box-shadow:0px 0px 10px 0.5px rgba(0,0,0,0.2);
 }
 
@@ -179,6 +183,7 @@
  * 代码块换行 display: block;
  */
 #nice pre code {
+  display: -webkit-box !important;
 }
 
 /*
