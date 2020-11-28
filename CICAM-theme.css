@@ -43,8 +43,8 @@
 
 /* 二级标题 */
 #nice h2 {
- text-align:center;
- margin-bottom: 30px;
+ text-align:left;
+ margin-bottom: 10px;
  color: #43658b;
 }
 
@@ -52,7 +52,9 @@
 #nice h2 .content {
  font-size: 22px;
  display: inline-block;
- border-bottom: 4px double #43658b;
+ color:white;
+ background-color:#43658b;
+ padding:5px 10px;
 }
 
 /* 二级标题修饰 请参考有实例的主题 */
@@ -61,6 +63,10 @@
 
 /* 二级标题修饰 请参考有实例的主题 */
 #nice h2:before {
+}
+
+#nice h2 .content:before {
+  content:"§ ";
 }
 
 /* 三级标题 */
