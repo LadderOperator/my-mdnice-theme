@@ -205,7 +205,8 @@
 
 /* 脚注文字 */
 #nice .footnote-word {
-  color: #ffacb7;
+  color: inherit;
+  font-weight:inherit;
 }
 
 /* 脚注上标 */
